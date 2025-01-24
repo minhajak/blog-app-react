@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 40px;
+    padding: 25px;
+    gap: 20px;
+
+
+    .card {
+        background: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 150px;
+        box-shadow: 1px 0px 4px 0px rgba(135, 133, 133, 0.676);
+
+        img {
+            max-width: 100px;
+        }
+    }
+
+    .card:hover {
+        background-color: #f0eff3;
+    }
+
+    .card:active {
+        background-color: #706c7e;
+    }
+}

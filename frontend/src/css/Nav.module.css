@@ -1,0 +1,95 @@
+body{
+    text-decoration: none;
+    font-family: monospace;
+    background-color: hsla(200, 8%, 93%, 0.498);
+}
+.mainNav {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-top: -7px;
+    padding: 3px;
+    background: white;
+
+
+    .nav {
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-grow: 1;
+        flex-shrink: 1;
+
+        .navList {
+            display: flex;
+            li {
+                list-style: none;
+                text-decoration: none;
+                margin-right: 25px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: larger;
+                    font-weight: bolder;
+                }
+            }
+        }
+
+        .user {
+            display: flex;
+            margin-right: 10px;
+            padding: 10px;
+            a{
+                margin-right: 10px;
+                padding: 10px;
+                border: 1px solid;
+                border-radius: 5px;
+                font-size: larger;
+                font-weight: bolder;
+                text-decoration: none;
+                color: hsl(0, 100%, 100%);
+
+            }
+            .signin{
+                background: hsl(103, 94%, 43%);
+            }
+            .signin:hover{
+                background: hsl(103, 94%, 33%);
+            }
+            .signin:active{
+                background: hsl(103, 94%, 23%);
+            }
+            .signout{
+                background: hsl(16, 96%, 49%);
+            }
+            .signout:hover{
+                background: hsl(16, 96%, 39%);
+            }
+            .signout:active{
+                background: hsl(16, 96%, 29%);
+            }
+            .dashboard{
+                background: hsl(226, 94%, 39%);
+            }
+            .dashboard:hover{
+                background: hsl(226, 94%, 29%);
+            }
+            .dashboard:active{
+                background: hsl(226, 94%, 19%);
+            }
+            .signup{
+                background: hsl(188, 4%, 38%);
+            }
+            .signup:hover{
+                background: hsl(188, 4%, 28%);
+            }
+            .signup:active{
+                background: hsl(188, 4%, 18%);
+            }
+        
+        }
+    }
+}

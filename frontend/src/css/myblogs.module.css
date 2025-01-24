@@ -1,0 +1,70 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 10px;
+ 
+
+    button {
+        width: 75px;
+        height: 35px;
+        background: white;
+        border-radius: 4px;
+        border: none;
+        box-shadow: 0px 1px 5px 0px;
+        margin-bottom: 25px;
+        margin-left: 5px;
+        transition: background-color 0.5s;
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            font-size: larger;
+            color: black;
+        }
+    }
+    button:hover{
+        background: rgb(250, 248, 248);
+    }
+    button:active{
+        background: rgb(199, 197, 197);
+    }
+
+    .blogCard {
+        background: white;
+        box-shadow: 0px 1px 5px 0px  hsl(0, 2%, 69%);
+        margin: 5px 25px;
+        padding: 10px 15px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transition: background-color 0.5s;
+        p{
+            
+        }
+    }
+    .blogCard:hover{
+        background-color: rgb(237, 234, 234);
+    }
+    .blogCard:active{
+        background-color: rgb(167, 163, 163);
+    }
+   
+}
+.addBlog{
+    text-decoration: none;
+    color: white;
+    background: hsl(0, 2%, 48%);
+    margin: 5px 25px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    max-width: fit-content ;
+}
+.addBlog:hover{
+    background: hsl(0, 2%, 38%);
+}
+.addBlog:active{
+    background: hsl(0, 2%, 28%);
+}

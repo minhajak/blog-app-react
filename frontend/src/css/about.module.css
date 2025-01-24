@@ -1,0 +1,15 @@
+.container {
+    padding: 30px;
+    border-radius: 5px;
+    border: none;
+    background: white;
+
+    p {
+        line-height: 2;
+        span {
+            font-size: large;
+            font-weight: bolder;
+            color: black;
+        }
+    }
+}

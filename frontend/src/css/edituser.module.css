@@ -1,0 +1,116 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 75px;
+    color: rgb(50, 49, 49);
+
+    .form {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 40px 45px;
+        border-radius: 6px;
+        box-shadow: 1px 1px 5px 0px rgb(76, 75, 75);
+        gap: 25px;
+        align-items: start;
+        justify-content: center;
+        font-size: 18px;
+
+        .header {
+            margin-left: 25%;
+        }
+
+        .username {
+            label {
+                input[type="text"]{
+                    min-width: 220px;
+                    min-height: 25px;   
+                    border-radius: 6px;
+                    border: none;
+                    background:white;
+                    padding-left: 10px;
+                    box-shadow: 1px 1px 5px 0px gray;
+                
+                }
+
+            }
+        }
+
+        .age {
+            label {
+                input {
+                    min-width: 220px;
+                    min-height: 25px;
+                    margin-left: 49px;
+                    border-radius: 6px;
+                    border: none;
+                    background:white;
+                    padding-left: 10px;
+                    box-shadow: 1px 1px 5px 0px gray;
+                    
+                }
+            }
+        }
+
+        .gender {
+            label{
+                select{
+                    margin-left: 17px;
+                    min-width: 100px;
+                    box-shadow: 1px 1px 5px 0px gray;
+                    background-color: white;
+                    border-radius: 4px;
+                    border: none;
+                    
+                  
+                }
+            }
+        }
+
+        .email {
+            label {
+                input {
+                    min-width: 220px;
+                    min-height: 25px;
+                    margin-left: 30px;
+                    border-radius: 6px;
+                    border: none;
+                    background:white;
+                    padding-left: 10px;
+                    box-shadow: 1px 1px 5px 0px gray;
+                }
+            }
+        }
+
+        .password {
+            label {
+                input[type="password"]{
+                    min-width: 220px;
+                    min-height: 25px;
+                    border-radius: 6px;
+                    border: none;
+                    box-shadow: 1px 1px 5px 0px gray;
+                    padding-left: 10px;
+                }
+            }
+        }
+
+        .submit {
+            margin-left: 25%;
+            border-radius: 4px;
+            border: none;
+            padding: 10px 15px;
+            font-size: large;
+            color: white;
+            background-color: hsl(240, 100%, 50%);
+        }
+        .submit:hover{
+            background-color: hsl(240, 100%, 40%);
+        }
+        .submit:active{
+            background-color: hsl(240, 100%, 30%);
+        }
+    }
+}

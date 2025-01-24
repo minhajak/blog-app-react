@@ -1,0 +1,44 @@
+.card {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin: 30px 35px;
+    padding: 20px 25px;
+    border-radius: 5px;
+    box-shadow: 1px 0px 4px 0px rgba(82, 80, 80, 0.495);
+
+    .heading {
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .content {
+        line-height: 2.5;
+        font-size: larger;
+    }
+
+    .actions {
+        margin-top: 45px;
+
+        a {
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            border: none;
+            padding: 5px 10px;
+            font-weight: bolder;
+            font-size: larger;
+        }
+
+        .edit {
+            background: #0b21c9;
+            margin-right: 5px;
+        }
+
+        .delete {
+            background: #b80505;
+
+        }
+    }
+}

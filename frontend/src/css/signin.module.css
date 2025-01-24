@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: transparent;
+    margin: 50px 60px;
+    padding: 50px 60px;
+
+
+    .form {
+        background: white;
+        padding: 25px 30p;
+        margin: 30px 35px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 60px;
+        border-radius: 8px;
+        box-shadow: 1px 1px 10px 1px rgb(183, 181, 181);
+
+        h2 {
+            margin-top: -20px;
+            font-size: xx-large;
+        }
+
+        .email {
+
+            input[type="email"] {
+                min-width: 240px;
+                border-radius: 4px;
+                border: none;
+                min-height: 30px;
+                background-color: hsla(200, 8%, 93%, 0.498);
+
+            }
+
+            input[type="email"]::placeholder {
+                color: gray;
+                font-size: 14px;
+                text-align: center;
+            }
+
+        }
+
+        .password {
+
+            input[type="password"] {
+                min-width: 240px;
+                border-radius: 4px;
+                border: none;
+                min-height: 30px;
+                background-color: hsla(200, 8%, 93%, 0.498);
+            }
+
+            input[type="password"]::placeholder {
+                color: gray;
+                font-size: 14px;
+                text-align: center;
+            }
+
+        }
+
+        .submit {
+            max-width: fit-content;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: white;
+            font-size: large;
+            background: hsl(238, 90%, 57%);
+            transition: background 0.1s;
+            cursor: pointer;
+
+        }
+
+        .submit:hover {
+            background: hsl(238, 90%, 47%);
+        }
+
+        .submit:active {
+            background: hsl(238, 90%, 37%);
+        }
+        .load{
+            display: flex;
+            justify-content: space-between;
+            width: 250px;
+            a{
+                text-decoration: none;
+            }
+        }
+
+
+    }
+}

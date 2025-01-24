@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        font-size: xx-large;
+    }
+
+    form {
+        background-color: white;
+        min-width: 600px;
+        margin: 10px 15px;
+        padding: 25px 30px;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 1px 1px 4px 0px #d6d6d6;
+        gap: 10px;
+
+        .title {
+            padding: 10px;
+            margin-bottom: 10px;
+
+            label {
+                font-size: x-large;
+                input {
+                    width: 100%;
+                    font-size: large;
+                    border: none;
+                    border-radius: 4px;
+                    padding: 5px;
+                    box-shadow: 0px 0px 2px 0px #3f3d3d;
+                }
+            }
+        }
+
+        .content {
+            padding: 10px;
+
+            label {
+                font-size: x-large;
+                textarea {
+                    width: 100%;
+                    min-width: 300px;
+                    min-height: 200px; 
+                    overflow: visible;
+                    font-size: x-large;
+                    border: none;
+                    border-radius: 4px;
+                    padding: 5px;
+                    box-shadow: 0px 0px 2px 0px #3f3d3d;
+                }
+            }
+        }
+
+        button {
+           width: fit-content;
+           background: hsl(235, 94%, 44%);
+           color: white;
+           font-size: medium;
+           font-weight: 600;
+           padding: 6px 12px;
+           border: none;
+           border-radius: 5px;
+           margin-left: 38%;
+           transition: background 0.5 ;
+        }
+        button:hover{
+            background: hsl(235, 94%, 34%);
+        }
+        button:active{
+            background: hsl(235, 94%, 24%);
+        }
+    }
+}

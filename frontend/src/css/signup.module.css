@@ -1,0 +1,105 @@
+.container {
+    margin: 40px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+
+    .form {
+        background: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 10px;
+        padding: 50px 30px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px 0px gray;
+        gap: 20px;
+
+        .header{
+            font-size: xx-large;
+            margin-top: -20px;
+            font-weight: bolder;
+            color: hsl(240, 1%, 24%);
+        }
+
+        .username,
+        .age,
+        .email,
+        .password {
+            padding-left: 20px;
+            min-width: 300px;
+            min-height: 30px;
+            border-radius: 4px;
+            border: none;
+            box-shadow: 1px 1px 1px 1px rgb(176, 174, 174);
+        }
+
+        .username::placeholder,
+        .age::placeholder,
+        .email::placeholder,
+        .password::placeholder {
+            font-size: 13px;
+        }
+
+
+        .username {}
+
+        .age {}
+
+        .gender {
+            display: flex;
+            gap: 15px;
+            min-width: 320px;
+            justify-content: start;
+            font-size: large;
+            color: #5a5a5b;
+            /* border: 1px solid; */
+            .gender label {
+                font-size: xx-large;
+            }
+
+            input[type="radio"] {
+                accent-color: #740a0a;
+                /* Change the color of the radio button */
+                width: 15px;
+                /* Customize the size of the radio button */
+                height: 15px;
+            }
+
+            input[type="radio"]:focus {
+                outline: 2px solid #007bff;
+                /* Add a focus outline for accessibility */
+                outline-offset: 2px;
+            }   
+
+
+        }
+
+
+
+        .email {}
+
+        .password {}
+
+        .submit {
+            width: fit-content;
+            border-radius: 4px;
+            padding: 5px 10px;
+            background-color: hsl(122, 39%, 49%);
+            color: white;
+            font-size: larger;
+            border: none;
+
+        }
+        .submit:hover{
+            background-color: hsl(122, 39%, 39%);
+        }
+        .submit:active{
+            background-color: hsl(122, 39%, 29%);
+        }
+        a{
+            text-decoration: none;
+        }
+    }
+}
